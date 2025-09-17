@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #232f3e;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+header img {
+  max-width: 100px;
+  height: auto;
+}
+
+header h1 {
+  margin-left: 30px;
+  font-size: 24px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.search {
+  margin-left: 20px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  border-radius: 28px;
+  background-color: #f6f6f6;
+  transition: box-shadow 0.25s;
+}
+
+.search:focus-within {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.search-input {
+  font-size: 16px;
+  font-family: "Lexend", sans-serif;
+  color: #333333;
+  margin-left: 14px;
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 300px;
+}
+
+.search-input::placeholder,
+.material-symbols-outlined {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.sign-in-button {
+  width: max-content;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 10px 20px;
+  background-color: #febd69;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.sign-in-button a {
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+}
+
+.sign-up-button {
+  margin-left: auto;
+  margin-right: 5px;
+  padding: 10px 20px;
+  background-color: #febd69;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sign-up-button a {
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+}
